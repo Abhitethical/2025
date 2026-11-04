@@ -31,6 +31,9 @@ ALLOWED_HOSTS = [
     'new-nu-lac.vercel.app',
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://*.vercel.app',
+]
 # Application definition
 
 INSTALLED_APPS = [
