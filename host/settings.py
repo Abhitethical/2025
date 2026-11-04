@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    'new-nu-lac.vercel.app',
+    '.vercel.app',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
