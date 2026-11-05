@@ -4,7 +4,7 @@
             "src":"host/wsgi.py",
             "use":"@vercel/python",
             "config":{
-                "maxLambadaSize":"100000mb",
+                "maxLambadaSize":"15mb",
                 "runtime":"python3.12"
             }
         }
